@@ -5,7 +5,7 @@
 
 ```terraform
  module "auth_custom_domain" {
-    source = "github.com/burib/terraform-aws-auth-custom-domain?ref=v0"
+    source = "github.com/burib/terraform-aws-auth-custom-domain-module?ref=v0"
 
     route53_zone_id                 = "REPLACE_WITH_ROUTE53_ZONE_ID_OF_TOP_LEVEL_DOMAIN_LIKE_EXAMPLE_COM"
     wildcard_certificate_arn        = "REPLACE_WITH_WILDCARD_CERTIFICATE_ARN"
